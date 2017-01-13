@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CurrentAccentLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="CurrentHotTrackingLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 31</value>
+  </data>
+  <data name="CurrentHotTrackingLabel.Text" xml:space="preserve">
+    <value>Hyperlien:</value>
+  </data>
+  <data name="CurrentHotTrackingLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CurrentMenuHilightLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 31</value>
+  </data>
+  <data name="CurrentMenuHilightLabel.Text" xml:space="preserve">
+    <value>Item de menu selectionné:</value>
+  </data>
+  <data name="CurrentMenuHilightLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CurrentHilightLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 31</value>
+  </data>
+  <data name="CurrentHilightLabel.Text" xml:space="preserve">
+    <value>Item selectionné:</value>
+  </data>
+  <data name="CurrentHilightLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CurrentActiveCaptionGradientLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 31</value>
+  </data>
+  <data name="CurrentActiveCaptionGradientLabel.Text" xml:space="preserve">
+    <value>Titre actif secondaire:</value>
+  </data>
+  <data name="CurrentActiveCaptionGradientLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CurrentActiveCaptionLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 31</value>
+  </data>
+  <data name="CurrentActiveCaptionLabel.Text" xml:space="preserve">
+    <value>Titre actif:</value>
+  </data>
+  <data name="CurrentActiveCaptionLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CheckBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 31</value>
+  </data>
+  <data name="Panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AccentPreviewPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 2</value>
+  </data>
+  <data name="AccentPreviewPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 27</value>
+  </data>
+  <data name="AccentPreviewPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ActiveCaptionPreviewPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 33</value>
+  </data>
+  <data name="ActiveCaptionPreviewPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 27</value>
+  </data>
+  <data name="ActiveCaptionPreviewPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ActiveCaptionGradientPreviewPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 64</value>
+  </data>
+  <data name="ActiveCaptionGradientPreviewPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 27</value>
+  </data>
+  <data name="ActiveCaptionGradientPreviewPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HilightPreviewPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 95</value>
+  </data>
+  <data name="HilightPreviewPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 27</value>
+  </data>
+  <data name="HilightPreviewPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuHilightPreviewPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 126</value>
+  </data>
+  <data name="MenuHilightPreviewPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 27</value>
+  </data>
+  <data name="MenuHilightPreviewPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HotTrackingPreviewPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 157</value>
+  </data>
+  <data name="HotTrackingPreviewPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 27</value>
+  </data>
+  <data name="HotTrackingPreviewPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AdvancedModeColorTableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>464, 186</value>
+  </data>
+  <data name="AdvancedModeColorTableLayoutPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AutoSyncButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>464, 105</value>
+  </data>
+  <data name="AutoSyncButton.Text" xml:space="preserve">
+    <value>Synchroniser automatiquement</value>
+  </data>
+  <data name="AutoSyncButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SyncButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>464, 53</value>
+  </data>
+  <data name="SyncButton.Text" xml:space="preserve">
+    <value>Synchroniser maintenant</value>
+  </data>
+  <data name="SyncButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RestoreDefaultButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 176</value>
+  </data>
+  <data name="RestoreDefaultButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>464, 75</value>
+  </data>
+  <data name="RestoreDefaultButton.Text" xml:space="preserve">
+    <value>Restaurer les couleurs d'origine</value>
+  </data>
+  <data name="RestoreDefaultButton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>464, 254</value>
+  </data>
+  <data name="Panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="misNotifyIcon_Restore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 26</value>
+  </data>
+  <data name="tmiNotifyIcon_Restore.Text" xml:space="preserve">
+    <value>Ouvrir Accent Color Synchronizer</value>
+  </data>
+  <data name="misNotifyIcon_AppSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 26</value>
+  </data>
+  <data name="misNotifyIcon_About.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 26</value>
+  </data>
+  <data name="tmiNotifyIcon_About.Text" xml:space="preserve">
+    <value>À propos de</value>
+  </data>
+  <data name="sepNotifyIcon1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>298, 6</value>
+  </data>
+  <data name="misNotifyIcon_Exit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 26</value>
+  </data>
+  <data name="tmiNotifyIcon_Exit.Text" xml:space="preserve">
+    <value>Quitter</value>
+  </data>
+  <data name="cmsNotifyIcon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 114</value>
+  </data>
+  <data name="cmsNotifyIcon.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SwitchModeLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 608</value>
+  </data>
+  <data name="SwitchModeLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 22</value>
+  </data>
+  <data name="SwitchModeLink.Text" xml:space="preserve">
+    <value>Mode avancé</value>
+  </data>
+  <data name="SwitchModeLink.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SpacePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>464, 5</value>
+  </data>
+  <data name="SpacePanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BasicModeAccentLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
+  </data>
+  <data name="BasicModeAccentLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BasicModeHighlightLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
+  </data>
+  <data name="BasicModeHighlightLabel.Text" xml:space="preserve">
+    <value>Surlignage:</value>
+  </data>
+  <data name="BasicModeHighlightLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BasicModeHotTrackingLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
+  </data>
+  <data name="BasicModeHotTrackingLabel.Text" xml:space="preserve">
+    <value>Hyperliens:</value>
+  </data>
+  <data name="BasicModeHotTrackingLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BasicModeColorTableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>450, 81</value>
+  </data>
+  <data name="BasicModeColorTableLayoutPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AdvancedModeContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>464, 186</value>
+  </data>
+  <data name="AdvancedModeContainer.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BasicModeContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>464, 111</value>
+  </data>
+  <data name="BasicModeContainer.Text" xml:space="preserve">
+    <value>Couleurs actuelles</value>
+  </data>
+  <data name="BasicModeContainer.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ExplanationLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>464, 42</value>
+  </data>
+  <data name="ExplanationLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="misMain_AppSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 26</value>
+  </data>
+  <data name="tmiMain_AppSettings.Text" xml:space="preserve">
+    <value>Options de l'application</value>
+  </data>
+  <data name="misMain_About.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 26</value>
+  </data>
+  <data name="tmiMain_About.Text" xml:space="preserve">
+    <value>À propos de</value>
+  </data>
+  <data name="cmsMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 56</value>
+  </data>
+  <data name="cmsMain.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>484, 508</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAAQEAAAAAIAAsAAAAFgAAACgAAAABAAAAAgAAAAEAIAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA
+        AAD///8BAP8=
+</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>500, 47</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

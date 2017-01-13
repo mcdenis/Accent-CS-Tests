@@ -1,0 +1,9 @@
+UserControl:
+-Arranger layout quand seulement OK button visible.
+
+Bon explication que je vais modifier pour qu'elle fit dans la label dont la dimension est définit par le texte en anglais. Remmetre le texte original lorsque j'aurai remplacé les label par des rich text box. "Lorsque cette fonctionnalité est activée, les modifications apportées aux réglages de cette application sont conservés même lorsque vous la quittez. Pour accomplir cela, un fichier de configuration est conservé sur votre ordinateur. Désactiver cette fonctionnalité supprime le fichier."
+
+AppSettings Class: Pas thread encore safe jcrois : pas implémenté le lock avec l'object vide.
+
+Corriger erreur d'orthographe "Scheme" sur Reset Defaults command link button.
+

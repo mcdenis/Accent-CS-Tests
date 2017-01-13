@@ -1,0 +1,1287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CurrentAccentLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CurrentAccentLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="CurrentAccentLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="CurrentAccentLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 0</value>
+  </data>
+  <data name="CurrentAccentLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CurrentAccentLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 6, 0, 5</value>
+  </data>
+  <data name="CurrentAccentLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 28</value>
+  </data>
+  <data name="CurrentAccentLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="CurrentAccentLabel.Text" xml:space="preserve">
+    <value>Accent:</value>
+  </data>
+  <data name="&gt;&gt;CurrentAccentLabel.Name" xml:space="preserve">
+    <value>CurrentAccentLabel</value>
+  </data>
+  <data name="&gt;&gt;CurrentAccentLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CurrentAccentLabel.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;CurrentAccentLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="AdvancedModeColorTableLayoutPanel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AdvancedModeColorTableLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="CurrentHotTrackingLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CurrentHotTrackingLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="CurrentHotTrackingLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CurrentHotTrackingLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 155</value>
+  </data>
+  <data name="CurrentHotTrackingLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="CurrentHotTrackingLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 5, 0, 5</value>
+  </data>
+  <data name="CurrentHotTrackingLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 31</value>
+  </data>
+  <data name="CurrentHotTrackingLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="CurrentHotTrackingLabel.Text" xml:space="preserve">
+    <value>Hyperlink:</value>
+  </data>
+  <data name="&gt;&gt;CurrentHotTrackingLabel.Name" xml:space="preserve">
+    <value>CurrentHotTrackingLabel</value>
+  </data>
+  <data name="&gt;&gt;CurrentHotTrackingLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CurrentHotTrackingLabel.Parent" xml:space="preserve">
+    <value>AdvancedModeColorTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;CurrentHotTrackingLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CurrentMenuHilightLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CurrentMenuHilightLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="CurrentMenuHilightLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CurrentMenuHilightLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 124</value>
+  </data>
+  <data name="CurrentMenuHilightLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="CurrentMenuHilightLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 5, 0, 5</value>
+  </data>
+  <data name="CurrentMenuHilightLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 31</value>
+  </data>
+  <data name="CurrentMenuHilightLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="CurrentMenuHilightLabel.Text" xml:space="preserve">
+    <value>Selected menu item:</value>
+  </data>
+  <data name="&gt;&gt;CurrentMenuHilightLabel.Name" xml:space="preserve">
+    <value>CurrentMenuHilightLabel</value>
+  </data>
+  <data name="&gt;&gt;CurrentMenuHilightLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CurrentMenuHilightLabel.Parent" xml:space="preserve">
+    <value>AdvancedModeColorTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;CurrentMenuHilightLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CurrentHilightLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CurrentHilightLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="CurrentHilightLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CurrentHilightLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 93</value>
+  </data>
+  <data name="CurrentHilightLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="CurrentHilightLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 5, 0, 5</value>
+  </data>
+  <data name="CurrentHilightLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 31</value>
+  </data>
+  <data name="CurrentHilightLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="CurrentHilightLabel.Text" xml:space="preserve">
+    <value>Selected item:</value>
+  </data>
+  <data name="&gt;&gt;CurrentHilightLabel.Name" xml:space="preserve">
+    <value>CurrentHilightLabel</value>
+  </data>
+  <data name="&gt;&gt;CurrentHilightLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CurrentHilightLabel.Parent" xml:space="preserve">
+    <value>AdvancedModeColorTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;CurrentHilightLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CurrentActiveCaptionGradientLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CurrentActiveCaptionGradientLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="CurrentActiveCaptionGradientLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CurrentActiveCaptionGradientLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 62</value>
+  </data>
+  <data name="CurrentActiveCaptionGradientLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="CurrentActiveCaptionGradientLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 5, 0, 5</value>
+  </data>
+  <data name="CurrentActiveCaptionGradientLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 31</value>
+  </data>
+  <data name="CurrentActiveCaptionGradientLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="CurrentActiveCaptionGradientLabel.Text" xml:space="preserve">
+    <value>Active caption gradient:</value>
+  </data>
+  <data name="&gt;&gt;CurrentActiveCaptionGradientLabel.Name" xml:space="preserve">
+    <value>CurrentActiveCaptionGradientLabel</value>
+  </data>
+  <data name="&gt;&gt;CurrentActiveCaptionGradientLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CurrentActiveCaptionGradientLabel.Parent" xml:space="preserve">
+    <value>AdvancedModeColorTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;CurrentActiveCaptionGradientLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="CurrentActiveCaptionLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CurrentActiveCaptionLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="CurrentActiveCaptionLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CurrentActiveCaptionLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 31</value>
+  </data>
+  <data name="CurrentActiveCaptionLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="CurrentActiveCaptionLabel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 5, 0, 5</value>
+  </data>
+  <data name="CurrentActiveCaptionLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 31</value>
+  </data>
+  <data name="CurrentActiveCaptionLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="CurrentActiveCaptionLabel.Text" xml:space="preserve">
+    <value>Active caption:</value>
+  </data>
+  <data name="&gt;&gt;CurrentActiveCaptionLabel.Name" xml:space="preserve">
+    <value>CurrentActiveCaptionLabel</value>
+  </data>
+  <data name="&gt;&gt;CurrentActiveCaptionLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CurrentActiveCaptionLabel.Parent" xml:space="preserve">
+    <value>AdvancedModeColorTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;CurrentActiveCaptionLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="CheckBox1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CheckBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="CheckBox1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CheckBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CheckBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="CheckBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="CheckBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 5, 0, 5</value>
+  </data>
+  <data name="CheckBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 31</value>
+  </data>
+  <data name="CheckBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;CheckBox1.Name" xml:space="preserve">
+    <value>CheckBox1</value>
+  </data>
+  <data name="&gt;&gt;CheckBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBox1.Parent" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;CheckBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="Panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Panel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 31</value>
+  </data>
+  <data name="Panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Name" xml:space="preserve">
+    <value>Panel2</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel2.Parent" xml:space="preserve">
+    <value>AdvancedModeColorTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;Panel2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="AccentPreviewPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="AccentPreviewPanel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="AccentPreviewPanel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AccentPreviewPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 2</value>
+  </data>
+  <data name="AccentPreviewPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 2, 0, 2</value>
+  </data>
+  <data name="AccentPreviewPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 27</value>
+  </data>
+  <data name="AccentPreviewPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;AccentPreviewPanel.Name" xml:space="preserve">
+    <value>AccentPreviewPanel</value>
+  </data>
+  <data name="&gt;&gt;AccentPreviewPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AccentPreviewPanel.Parent" xml:space="preserve">
+    <value>AdvancedModeColorTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;AccentPreviewPanel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ActiveCaptionPreviewPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ActiveCaptionPreviewPanel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="ActiveCaptionPreviewPanel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ActiveCaptionPreviewPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 33</value>
+  </data>
+  <data name="ActiveCaptionPreviewPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 2, 0, 2</value>
+  </data>
+  <data name="ActiveCaptionPreviewPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 27</value>
+  </data>
+  <data name="ActiveCaptionPreviewPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;ActiveCaptionPreviewPanel.Name" xml:space="preserve">
+    <value>ActiveCaptionPreviewPanel</value>
+  </data>
+  <data name="&gt;&gt;ActiveCaptionPreviewPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ActiveCaptionPreviewPanel.Parent" xml:space="preserve">
+    <value>AdvancedModeColorTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;ActiveCaptionPreviewPanel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ActiveCaptionGradientPreviewPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ActiveCaptionGradientPreviewPanel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="ActiveCaptionGradientPreviewPanel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ActiveCaptionGradientPreviewPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 64</value>
+  </data>
+  <data name="ActiveCaptionGradientPreviewPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 2, 0, 2</value>
+  </data>
+  <data name="ActiveCaptionGradientPreviewPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 27</value>
+  </data>
+  <data name="ActiveCaptionGradientPreviewPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;ActiveCaptionGradientPreviewPanel.Name" xml:space="preserve">
+    <value>ActiveCaptionGradientPreviewPanel</value>
+  </data>
+  <data name="&gt;&gt;ActiveCaptionGradientPreviewPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ActiveCaptionGradientPreviewPanel.Parent" xml:space="preserve">
+    <value>AdvancedModeColorTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;ActiveCaptionGradientPreviewPanel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="HilightPreviewPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="HilightPreviewPanel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="HilightPreviewPanel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="HilightPreviewPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 95</value>
+  </data>
+  <data name="HilightPreviewPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 2, 0, 2</value>
+  </data>
+  <data name="HilightPreviewPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 27</value>
+  </data>
+  <data name="HilightPreviewPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;HilightPreviewPanel.Name" xml:space="preserve">
+    <value>HilightPreviewPanel</value>
+  </data>
+  <data name="&gt;&gt;HilightPreviewPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HilightPreviewPanel.Parent" xml:space="preserve">
+    <value>AdvancedModeColorTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;HilightPreviewPanel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="MenuHilightPreviewPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="MenuHilightPreviewPanel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="MenuHilightPreviewPanel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MenuHilightPreviewPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 126</value>
+  </data>
+  <data name="MenuHilightPreviewPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 2, 0, 2</value>
+  </data>
+  <data name="MenuHilightPreviewPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 27</value>
+  </data>
+  <data name="MenuHilightPreviewPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;MenuHilightPreviewPanel.Name" xml:space="preserve">
+    <value>MenuHilightPreviewPanel</value>
+  </data>
+  <data name="&gt;&gt;MenuHilightPreviewPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuHilightPreviewPanel.Parent" xml:space="preserve">
+    <value>AdvancedModeColorTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;MenuHilightPreviewPanel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="HotTrackingPreviewPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="HotTrackingPreviewPanel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="HotTrackingPreviewPanel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="HotTrackingPreviewPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 157</value>
+  </data>
+  <data name="HotTrackingPreviewPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 2, 0, 2</value>
+  </data>
+  <data name="HotTrackingPreviewPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 27</value>
+  </data>
+  <data name="HotTrackingPreviewPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;HotTrackingPreviewPanel.Name" xml:space="preserve">
+    <value>HotTrackingPreviewPanel</value>
+  </data>
+  <data name="&gt;&gt;HotTrackingPreviewPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HotTrackingPreviewPanel.Parent" xml:space="preserve">
+    <value>AdvancedModeColorTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;HotTrackingPreviewPanel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="AdvancedModeColorTableLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="AdvancedModeColorTableLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="AdvancedModeColorTableLayoutPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="AdvancedModeColorTableLayoutPanel.RowCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="AdvancedModeColorTableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>381, 186</value>
+  </data>
+  <data name="AdvancedModeColorTableLayoutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;AdvancedModeColorTableLayoutPanel.Name" xml:space="preserve">
+    <value>AdvancedModeColorTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;AdvancedModeColorTableLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AdvancedModeColorTableLayoutPanel.Parent" xml:space="preserve">
+    <value>AdvancedModeContainer</value>
+  </data>
+  <data name="&gt;&gt;AdvancedModeColorTableLayoutPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="AdvancedModeColorTableLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="CurrentHotTrackingLabel" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="CurrentMenuHilightLabel" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="CurrentHilightLabel" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="CurrentActiveCaptionGradientLabel" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="CurrentActiveCaptionLabel" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Panel2" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="AccentPreviewPanel" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="ActiveCaptionPreviewPanel" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="ActiveCaptionGradientPreviewPanel" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="HilightPreviewPanel" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="MenuHilightPreviewPanel" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="HotTrackingPreviewPanel" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="Panel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AutoSyncButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="AutoSyncButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AutoSyncButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 66</value>
+  </data>
+  <data name="AutoSyncButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 3, 0, 3</value>
+  </data>
+  <data name="AutoSyncButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>381, 94</value>
+  </data>
+  <data name="AutoSyncButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="AutoSyncButton.Text" xml:space="preserve">
+    <value>Sync automatically</value>
+  </data>
+  <data name="&gt;&gt;AutoSyncButton.Name" xml:space="preserve">
+    <value>AutoSyncButton</value>
+  </data>
+  <data name="&gt;&gt;AutoSyncButton.Type" xml:space="preserve">
+    <value>SyncSystemColors.MyControls.ButtonEx, Accent Color Synchronizer, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;AutoSyncButton.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;AutoSyncButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SyncButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="SyncButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SyncButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 8</value>
+  </data>
+  <data name="SyncButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 6, 0, 3</value>
+  </data>
+  <data name="SyncButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>381, 52</value>
+  </data>
+  <data name="SyncButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="SyncButton.Text" xml:space="preserve">
+    <value>Sync now</value>
+  </data>
+  <data name="&gt;&gt;SyncButton.Name" xml:space="preserve">
+    <value>SyncButton</value>
+  </data>
+  <data name="&gt;&gt;SyncButton.Type" xml:space="preserve">
+    <value>SyncSystemColors.MyControls.ButtonEx, Accent Color Synchronizer, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;SyncButton.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;SyncButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RestoreDefaultButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="RestoreDefaultButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RestoreDefaultButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 166</value>
+  </data>
+  <data name="RestoreDefaultButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 3, 0, 3</value>
+  </data>
+  <data name="RestoreDefaultButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>381, 75</value>
+  </data>
+  <data name="RestoreDefaultButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="RestoreDefaultButton.Text" xml:space="preserve">
+    <value>Restore defaults</value>
+  </data>
+  <data name="&gt;&gt;RestoreDefaultButton.Name" xml:space="preserve">
+    <value>RestoreDefaultButton</value>
+  </data>
+  <data name="&gt;&gt;RestoreDefaultButton.Type" xml:space="preserve">
+    <value>SyncSystemColors.MyControls.ButtonEx, Accent Color Synchronizer, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;RestoreDefaultButton.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;RestoreDefaultButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="Panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 354</value>
+  </data>
+  <data name="Panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Panel1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 2, 0, 0</value>
+  </data>
+  <data name="Panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>381, 244</value>
+  </data>
+  <data name="Panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Name" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Panel1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="NotifyIcon1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="cmsNotifyIcon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>19, 56</value>
+  </metadata>
+  <data name="tmiNotifyIcon_Restore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 24</value>
+  </data>
+  <data name="tmiNotifyIcon_Restore.Text" xml:space="preserve">
+    <value>Open Accent Color Synchronizer</value>
+  </data>
+  <data name="tmiNotifyIcon_AppSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 24</value>
+  </data>
+  <data name="tmiNotifyIcon_AppSettings.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="tmiNotifyIcon_About.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 24</value>
+  </data>
+  <data name="tmiNotifyIcon_About.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="sepNotifyIcon1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 6</value>
+  </data>
+  <data name="tmiNotifyIcon_Exit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 24</value>
+  </data>
+  <data name="tmiNotifyIcon_Exit.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="cmsNotifyIcon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 106</value>
+  </data>
+  <data name="&gt;&gt;cmsNotifyIcon.Name" xml:space="preserve">
+    <value>cmsNotifyIcon</value>
+  </data>
+  <data name="&gt;&gt;cmsNotifyIcon.Type" xml:space="preserve">
+    <value>SyncSystemColors.MyControls.ContextMenuSystemStrip, Accent Color Synchronizer, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="NotifyIcon1.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SwitchModeLink.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SwitchModeLink.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="SwitchModeLink.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SwitchModeLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 598</value>
+  </data>
+  <data name="SwitchModeLink.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="SwitchModeLink.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 5, 0, 0</value>
+  </data>
+  <data name="SwitchModeLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 22</value>
+  </data>
+  <data name="SwitchModeLink.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="SwitchModeLink.Text" xml:space="preserve">
+    <value>Advanced mode</value>
+  </data>
+  <data name="&gt;&gt;SwitchModeLink.Name" xml:space="preserve">
+    <value>SwitchModeLink</value>
+  </data>
+  <data name="&gt;&gt;SwitchModeLink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SwitchModeLink.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SwitchModeLink.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="SpacePanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="SpacePanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 349</value>
+  </data>
+  <data name="SpacePanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="SpacePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>381, 5</value>
+  </data>
+  <data name="SpacePanel.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="SpacePanel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;SpacePanel.Name" xml:space="preserve">
+    <value>SpacePanel</value>
+  </data>
+  <data name="&gt;&gt;SpacePanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SpacePanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SpacePanel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="SpamPreventionTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>443, 17</value>
+  </metadata>
+  <data name="BasicModeColorTableLayoutPanel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BasicModeColorTableLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="BasicModeAccentLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BasicModeAccentLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="BasicModeAccentLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BasicModeAccentLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 5</value>
+  </data>
+  <data name="BasicModeAccentLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 5, 0, 5</value>
+  </data>
+  <data name="BasicModeAccentLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 17</value>
+  </data>
+  <data name="BasicModeAccentLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BasicModeAccentLabel.Text" xml:space="preserve">
+    <value>Accent:</value>
+  </data>
+  <data name="BasicModeAccentLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;BasicModeAccentLabel.Name" xml:space="preserve">
+    <value>BasicModeAccentLabel</value>
+  </data>
+  <data name="&gt;&gt;BasicModeAccentLabel.Type" xml:space="preserve">
+    <value>SyncSystemColors.MyControls.LabelEX, Accent Color Synchronizer, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;BasicModeAccentLabel.Parent" xml:space="preserve">
+    <value>BasicModeColorTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;BasicModeAccentLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BasicModeHighlightLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BasicModeHighlightLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="BasicModeHighlightLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BasicModeHighlightLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 32</value>
+  </data>
+  <data name="BasicModeHighlightLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 5, 0, 5</value>
+  </data>
+  <data name="BasicModeHighlightLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 17</value>
+  </data>
+  <data name="BasicModeHighlightLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="BasicModeHighlightLabel.Text" xml:space="preserve">
+    <value>Highlighted items:</value>
+  </data>
+  <data name="BasicModeHighlightLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;BasicModeHighlightLabel.Name" xml:space="preserve">
+    <value>BasicModeHighlightLabel</value>
+  </data>
+  <data name="&gt;&gt;BasicModeHighlightLabel.Type" xml:space="preserve">
+    <value>SyncSystemColors.MyControls.LabelEX, Accent Color Synchronizer, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;BasicModeHighlightLabel.Parent" xml:space="preserve">
+    <value>BasicModeColorTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;BasicModeHighlightLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BasicModeHotTrackingLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BasicModeHotTrackingLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="BasicModeHotTrackingLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BasicModeHotTrackingLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 59</value>
+  </data>
+  <data name="BasicModeHotTrackingLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 5, 0, 5</value>
+  </data>
+  <data name="BasicModeHotTrackingLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 17</value>
+  </data>
+  <data name="BasicModeHotTrackingLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="BasicModeHotTrackingLabel.Text" xml:space="preserve">
+    <value>Hyperlinks:</value>
+  </data>
+  <data name="BasicModeHotTrackingLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;BasicModeHotTrackingLabel.Name" xml:space="preserve">
+    <value>BasicModeHotTrackingLabel</value>
+  </data>
+  <data name="&gt;&gt;BasicModeHotTrackingLabel.Type" xml:space="preserve">
+    <value>SyncSystemColors.MyControls.LabelEX, Accent Color Synchronizer, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;BasicModeHotTrackingLabel.Parent" xml:space="preserve">
+    <value>BasicModeColorTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;BasicModeHotTrackingLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BasicModeColorTableLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="BasicModeColorTableLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 19</value>
+  </data>
+  <data name="BasicModeColorTableLayoutPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="BasicModeColorTableLayoutPanel.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="BasicModeColorTableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>367, 81</value>
+  </data>
+  <data name="BasicModeColorTableLayoutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;BasicModeColorTableLayoutPanel.Name" xml:space="preserve">
+    <value>BasicModeColorTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;BasicModeColorTableLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BasicModeColorTableLayoutPanel.Parent" xml:space="preserve">
+    <value>BasicModeContainer</value>
+  </data>
+  <data name="&gt;&gt;BasicModeColorTableLayoutPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BasicModeColorTableLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="BasicModeAccentLabel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="BasicModeHighlightLabel" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="BasicModeHotTrackingLabel" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>650, 17</value>
+  </metadata>
+  <data name="AdvancedModeContainer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AdvancedModeContainer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="AdvancedModeContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 163</value>
+  </data>
+  <data name="AdvancedModeContainer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="AdvancedModeContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>381, 186</value>
+  </data>
+  <data name="AdvancedModeContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;AdvancedModeContainer.Name" xml:space="preserve">
+    <value>AdvancedModeContainer</value>
+  </data>
+  <data name="&gt;&gt;AdvancedModeContainer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AdvancedModeContainer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AdvancedModeContainer.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="BasicModeContainer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BasicModeContainer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="BasicModeContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 52</value>
+  </data>
+  <data name="BasicModeContainer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="BasicModeContainer.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 4, 7, 11</value>
+  </data>
+  <data name="BasicModeContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>381, 111</value>
+  </data>
+  <data name="BasicModeContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="BasicModeContainer.Text" xml:space="preserve">
+    <value>Current colors</value>
+  </data>
+  <data name="&gt;&gt;BasicModeContainer.Name" xml:space="preserve">
+    <value>BasicModeContainer</value>
+  </data>
+  <data name="&gt;&gt;BasicModeContainer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BasicModeContainer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BasicModeContainer.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ExplanationLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="ExplanationLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ExplanationLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 10</value>
+  </data>
+  <data name="ExplanationLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>381, 42</value>
+  </data>
+  <data name="ExplanationLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="ExplanationLabel.Text" xml:space="preserve">
+    <value>LabelEX1</value>
+  </data>
+  <data name="&gt;&gt;ExplanationLabel.Name" xml:space="preserve">
+    <value>ExplanationLabel</value>
+  </data>
+  <data name="&gt;&gt;ExplanationLabel.Type" xml:space="preserve">
+    <value>SyncSystemColors.MyControls.LabelEX, Accent Color Synchronizer, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ExplanationLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ExplanationLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="cmsMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>214, 56</value>
+  </metadata>
+  <data name="tmiMain_AppSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 24</value>
+  </data>
+  <data name="tmiMain_AppSettings.Text" xml:space="preserve">
+    <value>Application Options</value>
+  </data>
+  <data name="tmiMain_About.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 24</value>
+  </data>
+  <data name="tmiMain_About.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="cmsMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 52</value>
+  </data>
+  <data name="&gt;&gt;cmsMain.Name" xml:space="preserve">
+    <value>cmsMain</value>
+  </data>
+  <data name="&gt;&gt;cmsMain.Type" xml:space="preserve">
+    <value>SyncSystemColors.MyControls.ContextMenuSystemStrip, Accent Color Synchronizer, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>120, 120</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>401, 447</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAAQEAAAAAIAAsAAAAFgAAACgAAAABAAAAAgAAAAEAIAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA
+        AAD///8BAP8=
+</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>417, 47</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Accent Color Synchronizer</value>
+  </data>
+  <data name="&gt;&gt;NotifyIcon1.Name" xml:space="preserve">
+    <value>NotifyIcon1</value>
+  </data>
+  <data name="&gt;&gt;NotifyIcon1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tmiNotifyIcon_Restore.Name" xml:space="preserve">
+    <value>tmiNotifyIcon_Restore</value>
+  </data>
+  <data name="&gt;&gt;tmiNotifyIcon_Restore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tmiNotifyIcon_AppSettings.Name" xml:space="preserve">
+    <value>tmiNotifyIcon_AppSettings</value>
+  </data>
+  <data name="&gt;&gt;tmiNotifyIcon_AppSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tmiNotifyIcon_About.Name" xml:space="preserve">
+    <value>tmiNotifyIcon_About</value>
+  </data>
+  <data name="&gt;&gt;tmiNotifyIcon_About.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sepNotifyIcon1.Name" xml:space="preserve">
+    <value>sepNotifyIcon1</value>
+  </data>
+  <data name="&gt;&gt;sepNotifyIcon1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tmiNotifyIcon_Exit.Name" xml:space="preserve">
+    <value>tmiNotifyIcon_Exit</value>
+  </data>
+  <data name="&gt;&gt;tmiNotifyIcon_Exit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SpamPreventionTimer.Name" xml:space="preserve">
+    <value>SpamPreventionTimer</value>
+  </data>
+  <data name="&gt;&gt;SpamPreventionTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tmiMain_AppSettings.Name" xml:space="preserve">
+    <value>tmiMain_AppSettings</value>
+  </data>
+  <data name="&gt;&gt;tmiMain_AppSettings.Type" xml:space="preserve">
+    <value>SyncSystemColors.MyControls.ToolStripMenuItemEx, Accent Color Synchronizer, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tmiMain_About.Name" xml:space="preserve">
+    <value>tmiMain_About</value>
+  </data>
+  <data name="&gt;&gt;tmiMain_About.Type" xml:space="preserve">
+    <value>SyncSystemColors.MyControls.ToolStripMenuItemEx, Accent Color Synchronizer, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmMain</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
