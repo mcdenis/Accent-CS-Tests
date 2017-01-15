@@ -14,8 +14,8 @@ The *synchronization* process that Accent Color Synchronizer accomplishes consis
 your current accent color (the one defined in the Personalization|Colors page of the Settings app)
 and applying the same color to some System Colors. When the accent color is changed, the process
 must be repeated in order to keep the system colors the same as your accent color. Accent CS
-can either do this for you automatically when it detects an accent color change or you can click
-on a button to trigger the syncronization process yourself.
+can either do this for you automatically when it detects an accent color change or you can 
+trigger the syncronization process yourself.
 
 ## License
 This program is published under the MIT license.
