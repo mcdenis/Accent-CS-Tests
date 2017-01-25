@@ -9,6 +9,8 @@ some UI elements in desktop apps by updating *System Colors* (i.e. the theme col
 based on your accent color. These changes are usually subtle, but they contribute in 
 reducing the disparities between the classic desktop environment and Universal apps.
 
+![example](http://imgur.com/MMQBZO0)
+
 ## How it works
 The *synchronization* process that Accent Color Synchronizer accomplishes consists of obtaining
 your current accent color (the one defined in the Personalization|Colors page of the Settings app)
